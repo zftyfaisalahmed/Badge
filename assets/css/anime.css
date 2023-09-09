@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body {
+    height: 100vh;
+    background-color: #7eb418;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .container {
+    width: 367px;
+    height: 500px;
+    position: relative;
+    background: linear-gradient(to bottom, #f1a008 0%, #ceaa35 70%, #d5eb17 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3), 0 10px 10px rgba(0, 0, 0, .3);
+    border-radius: 80px;
+    overflow: hidden;
+    }
+    .disc-1 {
+    position: absolute;
+    top: 24%;
+    left: 1%;
+    width: 359px;
+    height: 358px;
+    background: #a5c223;
+    opacity: 0.2;
+    border-radius: 50%;
+    animation: glow infinite 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    }
+    .disc-2 {
+    position: absolute;
+    top: 35%;
+    left: 16%;
+    width: 260px;
+    height: 260px;
+    background: #9e7608;
+    opacity: 0.4;
+    border-radius: 50%;
+    animation: glow infinite 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    }
+    .disc-3 {
+    position: absolute;
+    top: 43%;
+    left: 27%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #f0f6fc;
+    opacity: 0.6;
+    animation: glow infinite 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    }
+    .landscape-1 {
+    position: absolute;
+    bottom: 119px;
+    left: -7px;
+    width: 250px;
+    height: 70px;
+    background-color: #23c43e;
+    transform: rotate(9deg);
+    }
+    .landscape-2 {
+    position: absolute;
+    bottom: 90px;
+    right: -7px;
+    width: 350px;
+    height: 90px;
+    background-color: #0f612a;
+    transform: rotate(-6deg);
+    }
+    .landscape-3 {
+    position: absolute;
+    bottom: 65px;
+    left: -4px;
+    width: 390px;
+    height: 80px;
+    background-color: #05702e;
+    transform: rotate(5deg);
+    }
+    .landscape-4 {
+    position: absolute;
+    bottom: 50px;
+    left: -4px;
+    width: 400px;
+    height: 70px;
+    background-color: #21502b;
+    transform: rotate(-4deg);
+    }
+    .landscape-5 {
+    position: absolute;
+    bottom: -10px;
+    left: -6px;
+    width: 370px;
+    height: 90px;
+    background-color: #189628;
+    transform: rotate(5deg);
+    }
+    .tree-1 {
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    height: 15px;
+    width: 20px;
+    background-color: #085708;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+    }
+    .tree-2 {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    height: 20px;
+    width: 13px;
+    background-color: #085708;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+    }
+    .tree-3 {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    height: 20px;
+    width: 18px;
+    background-color: #085708;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+    }
+    .tree-4 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    height: 20px;
+    width: 15px;
+    background-color: #085708;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+    }
+    .tree-5 {
+    position: absolute;
+    top: 69%;
+    left: 80%;
+    height: 30px;
+    width: 25px;
+    background-color: #085708;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+    }
+    .tree-6 {
+    position: absolute;
+    top: 74%;
+    left: 11%;
+    height: 45px;
+    width: 35px;
+    background-color: #085708;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+    }
+    .tree-7 {
+    position: absolute;
+    top: 72%;
+    left: 40%;
+    height: 35px;
+    width: 25px;
+    background-color: #085708;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+    }
